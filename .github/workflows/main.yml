@@ -25,3 +25,5 @@ jobs:
         run: echo "Currently in stage B"
       - name: print-stage-name
         run: echo "Stage B is introduction to Devops"
+
+      - name
