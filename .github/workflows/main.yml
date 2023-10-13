@@ -13,3 +13,10 @@ jobs:
         
       - name: print-hello
         run: echo "Hello"
+  job-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print-stage
+        run: echo "Currently in stage B"
+      - name: print-stage-name
+        run: echo "Stage B is introduction to Devops"
